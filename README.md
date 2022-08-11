@@ -1,6 +1,6 @@
 # Programmer un économiseur d'écran (Magazine Informatique Et Développement n°3)
 
-Sources liés à l'article "Programmer un économiseur d'écran" publié dans le magazine *Informatique Et Développement* n°3 en juillet 1999
+Sources liés à l'article "[Programmer un économiseur d'écran](https://developpeur-pascal.fr/programmer-un-economiseur-d-ecran-dans-le-magazine-informatique-et-developpement-3-juillet-1999.html)" publié dans le magazine *Informatique Et Développement* n°3 en juillet 1999
 
 Ces projets ont été développés sous Delphi 4 et concluent [le travail initié lors de la précédente publication](https://developpeur-pascal.fr/economiseur-d-ecran-sous-windows-32-en-delphi-4-dans-le-magazine-informatique-et-developpement-1-mai-1999.html).
 
