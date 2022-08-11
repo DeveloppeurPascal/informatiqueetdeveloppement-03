@@ -17,6 +17,7 @@ type
     PaintBox1: TPaintBox;
     procedure FormCreate(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     { Déclarations privées}
   protected
@@ -60,6 +61,11 @@ begin
   Canvas.Brush.Color := random ($ffffff);
   Canvas.FillRect (r);
   Timer1.Enabled := True;
+end;
+
+procedure Tfrm_Base.FormShow(Sender: TObject);
+begin
+  ShowWindow (Application.Handle, SW_Hide);
 end;
 
 end.

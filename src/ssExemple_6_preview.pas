@@ -1,7 +1,7 @@
 unit ssExemple_6_preview;
 // Economiseurs d'écrans sous Windows 32 bits en Delphi 4
 //
-// (c) Patrick Prémartin 03/1999
+// (c) Patrick Prémartin 05/1999
 // email: pprem@infonie.fr
 // web: http://www.infonie.fr/pprem/
 
@@ -30,7 +30,8 @@ implementation
 procedure Tfrm_ScreenSaverPreview.FormCreate(Sender: TObject);
 begin
   inherited;
-  Windows.SetParent (Handle, StrToInt (ParamStr (2)));
+//  Windows.SetParent (Handle, StrToInt (ParamStr (2)));
+  ParentWindow := StrToInt (Paramstr (2));
 end;
 
 end.
